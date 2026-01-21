@@ -171,3 +171,17 @@ Add the delta rule:
   }
 }
 ```
+
+## Development
+
+Add the following snippet to your `docker-compose.override.yml` to develop:
+
+```
+entity-linking:
+    ports:
+      - "8881:80"
+    environment:
+      NODE_ENV: "development"
+    volumes:
+      - /path/to/your/entity-linking-service/:/app
+```
