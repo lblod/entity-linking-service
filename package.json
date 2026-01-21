@@ -19,8 +19,10 @@
     "homepage": "https://github.com/lblod/poc-decide-harvester-filter-service#readme",
     "dependencies": {
         "@lblod/mu-auth-sudo": "0.6.2",
+        "async-await-mutex-lock": "^1.0.12",
         "fs-extra": "^9.0.1",
         "n3": "^1.26.0",
-        "node-fetch": "^2.6.1"
+        "node-fetch": "^2.6.1",
+        "sparqljson-parse": "^3.3.0"
     }
 }
